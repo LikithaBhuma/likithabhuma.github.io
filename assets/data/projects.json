@@ -1,0 +1,23 @@
+[
+  {
+    "title": "PDF Question-Answering System using RAG and LLMs",
+    "image": "assets/images/project3.png",
+    "description": "A Retrieval-Augmented Generation (RAG) based PDF Question-Answering system that enables users to upload PDF documents and ask natural language questions, receiving accurate answers derived exclusively from the uploaded content. ",
+    "tech": ["React", "Python","APIs","RAG","LLMs"],
+    "github": "https://github.com/LikithaBhuma/PDF-Question-Answering-System-using-RAG-and-LLMs"
+  },
+  {
+    "title": "GEMINIBRIDGE : A Multilingual prompting approach to Low-Resource Language Upliftment",
+    "image": "assets/images/project1.png",
+    "description": "A multilingual prompting-based NLP system designed to uplift low resource languages. It enables translation, intent detection, and slot filling for languages like Telugu, Bengali, Persian, Spanish, and Thai.",
+    "tech": ["Python", "flask"],
+    "github": "https://github.com/LikithaBhuma/GeminiBridge-Research"
+  },
+  {
+    "title": "Pixel to Prognosis:Image based Cervical Cancer Classification and Prediction using CNN Architecture",
+    "image": "assets/images/project2.png",
+    "description": "The main objective of the Pixel to Prognosis project is to a model that combines multiple models to improve cervical cancer prediction, risk classification accuracy and cancer class classification using CNN Architecture.",
+    "tech": ["Python", "Flask", "TensorFlow","CNN","Fusion Models"],
+    "github": "https://github.com/LikithaBhuma/PixelToPrognosis-ImageBasedCervicalCancerClassificationAndPredictionUsingCNNArchitecture"
+  }
+]
