@@ -1,5 +1,12 @@
 [
   {
+    "title": "Library Management System",
+    "image": "assets/images/project4.png",
+    "description": "Developed a console-based application to manage books, members, and book issue operations using Core Java and JDBC. Implemented DAO pattern and MySQL integration for efficient data storage and retrieval.",
+    "tech": ["Java","JDBC","MySQL","OOPS","DAO Pattern"],
+    "github": "https://github.com/LikithaBhuma/Library-Management-System"
+  },
+  {
     "title": "PDF Question-Answering System using RAG and LLMs",
     "image": "assets/images/project3.png",
     "description": "A Retrieval-Augmented Generation (RAG) based PDF Question-Answering system that enables users to upload PDF documents and ask natural language questions, receiving accurate answers derived exclusively from the uploaded content. ",
@@ -21,3 +28,4 @@
     "github": "https://github.com/LikithaBhuma/PixelToPrognosis-ImageBasedCervicalCancerClassificationAndPredictionUsingCNNArchitecture"
   }
 ]
+
