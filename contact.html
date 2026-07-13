@@ -4,45 +4,94 @@
   <meta charset="UTF-8">
   <title>Contact | Bhuma Likitha</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-<body>
-
-<nav class="navbar">
-  <h2 class="logo">Bhuma Likitha Sai Laxmi</h2>
-  <div class="menu-toggle" id="menu-toggle">☰</div>
-  <ul class="nav-links" id="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="experience.html">Experience</a></li>
-    <li><a href="education.html">Education</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<body class="page-bg">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Bhuma Likitha Sai Laxmi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
-<section class="page">
-  <h1>Contact Me</h1>
-
-  <form class="contact-form">
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your Name" required>
+<main class="container py-5">
+  <div class="row align-items-center g-5">
+    <div class="col-lg-5">
+      <div class="card section-card border-0 shadow-sm p-4">
+        <div class="card-body">
+          <h1 class="section-title mb-4">Contact Me</h1>
+          <p class="text-muted">Have a project idea or want to work together? Send a message and I’ll respond as soon as possible.</p>
+          <ul class="list-unstyled text-muted mb-0">
+            <li><strong>Email:</strong> <a href="mailto:likitha.bhuma05@gmail.com" class="text-decoration-none text-muted">likitha.bhuma05@gmail.com</a></li>
+            <li><strong>Location:</strong> Hyderabad, India</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="your@email.com" required>
+    <div class="col-lg-7">
+      <div class="card section-card border-0 shadow-sm p-4">
+        <div id="contact-status" aria-live="polite"></div>
+        <form id="contact-form" class="row g-3" action="https://formsubmit.co/ajax/likitha.bhuma05@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New contact request from portfolio">
+          <input type="hidden" name="_template" value="table">
+          <div class="col-12">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="col-12">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+          </div>
+        </form>
+      </div>
     </div>
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+  </div>
+</main>
+
+<footer class="py-4" style="background: linear-gradient(135deg, rgba(168,85,247,0.95), rgba(236,72,153,0.95));">
+  <div class="container text-white">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-6">
+        <h5 class="mb-1">Stay connected</h5>
+        <p class="mb-0 text-white-75">Follow me for updates on projects, achievements, and career stories.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <a href="https://github.com/LikithaBhuma" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm me-2 mb-2">GitHub</a>
+        <a href="https://www.linkedin.com/in/bhuma-likitha-sai-laxmi-2aa5a1272/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm me-2 mb-2">LinkedIn</a>
+        <a href="https://www.instagram.com/likitha_bhuma/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm me-2 mb-2">Instagram</a>
+        <a href="https://x.com/Bhuma_Likitha" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm me-2 mb-2">X</a>
+        <a href="https://leetcode.com/u/user2655PW/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-sm mb-2">LeetCode</a>
+      </div>
     </div>
-    <button type="submit" class="btn">Send Message</button>
-  </form>
+  </div>
+</footer>
 
-</section>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/contact.js"></script>
 </body>
