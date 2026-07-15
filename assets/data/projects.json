@@ -1,5 +1,24 @@
 [
   {
+  "title": "GynoGuide AI",
+  "image": "assets/images/project5.png",
+  "description": "Built an AI-powered women's healthcare education platform that provides personalized learning, disease information, medicine guidance, AI-assisted medical explanations, authentication with JWT, secure password recovery via email, and responsive user dashboards. Integrated OpenRouter AI for intelligent medical assistance and deployed the application using Vercel and Railway with a MySQL database.",
+  "tech": [
+    "React",
+    "Bootstrap",
+    "Node.js",
+    "Express.js",
+    "MySQL",
+    "JWT Authentication",
+    "OpenRouter AI",
+    "Axios",
+    "Nodemailer",
+    "Railway",
+    "Vercel"
+  ],
+  "github": "https://github.com/LikithaBhuma/GynoGuide-AI"
+}
+  {
     "title": "Library Management System",
     "image": "assets/images/project4.png",
     "description": "Developed a console-based application to manage books, members, and book issue operations using Core Java and JDBC. Implemented DAO pattern and MySQL integration for efficient data storage and retrieval.",
